@@ -1,0 +1,8 @@
+name: Shop
+version: '${project.version}'
+main: louie.shop.Shop
+api-version: 1.20
+depend: [Bank]
+commands:
+  sell:
+    description: Allows users to sell
