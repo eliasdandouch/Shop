@@ -6,3 +6,6 @@ depend: [Bank]
 commands:
   sell:
     description: Allows users to sell
+  shop:
+    description: Lists all items in the server shop
+  

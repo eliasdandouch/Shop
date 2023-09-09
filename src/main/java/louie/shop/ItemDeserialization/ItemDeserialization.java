@@ -8,10 +8,10 @@ import java.util.Base64;
 
 public class ItemDeserialization {
 
-    public static ItemStack base64ToItemStack(String base64Item) throws IllegalStateException {
+    public static ItemStack base64ToItemStack(String shopItem) throws IllegalStateException {
         try {
             // Deserialize the item & decode it
-            byte[] decodedSerialization = Base64.getDecoder().decode(base64Item);
+            byte[] decodedSerialization = Base64.getDecoder().decode(shopItem);
             ByteArrayInputStream inputStream = new ByteArrayInputStream(decodedSerialization);
             BukkitObjectInputStream dataInput = new BukkitObjectInputStream(inputStream);
 
