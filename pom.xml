@@ -74,6 +74,7 @@
             <groupId>Louie</groupId>
             <artifactId>Bank</artifactId>
             <version>0.2</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 </project>
